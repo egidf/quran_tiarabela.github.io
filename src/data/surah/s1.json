@@ -1,0 +1,11 @@
+	[	
+		{
+            "id_surah"  :1,
+            "id_sr_ar"  :"١",
+            "nm_ar"     :"الفاتحة",
+            "nm_id"     :"Al-Fatihah",
+            "nm_tr"     :"Pembukaan",   
+            "jm_ayat"   :7,
+            "jm_ayat_ar":"٧"
+        }
+    ]
