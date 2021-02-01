@@ -95,10 +95,10 @@ input[type="reset"] {
 }
 
 .btn {
-  max-height: 30px;
+  max-height: 35px;
   font-size: 12px;
   padding: 5px;
-  width: 80px;
+  width: 90px;
   color: white;
   border: none;
   outline-style: none;

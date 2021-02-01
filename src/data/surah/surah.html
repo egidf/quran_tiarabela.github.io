@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="/src/style/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="/src/style/style.css">
     <title>Surah</title>
 </head>
@@ -19,11 +19,42 @@
         </div>
     <!--akhir ayat-->
     
+
+    <!--awal modal-->
+
+  <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel"></h6>
+                        <button type="button" class="btn-close btn-primary" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="listgroup">
+                                <ul class="list-group">
+                                    <li id="lgi_1" class="list-group-item lgi-1 arabic" lang="ar" dir="rtl"></li>
+                                    <li class="list-group-item tafsir-ringkas"></li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button id="close"type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                
+
+    <!--akhir modal-->
+
     <!--script-->
     <script src="/src/jquery/jquery-3.5.1.js"></script>
     <script src="/src/js/judul.js"></script>
     <script src="/src/js/data.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="/src/js/tafsir2.js"></script>
+    <script src="/src/js/js/bootstrap.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
     <script>
         

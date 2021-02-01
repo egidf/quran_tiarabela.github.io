@@ -1,7 +1,6 @@
 $(document).ready(function(){
     $.getJSON("1.json", function(data){
-        console.log(data);
-        var dataQr = '';
+        let dataQr = '';
         $.each(data, function(key, value){
             dataQr += '<h1 class="judul-arabic" lang="ar" dir="rtl">'+value.nm_ar+'</h1>';
             dataQr += '<h5 class"p-0 mt-1">'+value.nm_id+'</h5>';
@@ -10,6 +9,5 @@ $(document).ready(function(){
             
         });
         $('#judul').append(dataQr);
-        console.log(dataQr);
     });
 });
