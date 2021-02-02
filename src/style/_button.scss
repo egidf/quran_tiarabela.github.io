@@ -11,6 +11,7 @@ input[type="reset"] {
 }
 
 .btn:focus,
+.btn:hover,
 .btn:active:focus,
 .btn.active:focus {
     outline: none;
@@ -37,4 +38,8 @@ input[type="reset"] {
 
 .btn-3 {
     background-color: rgb(0, 56, 0);
+}
+
+.btn-danger {
+    background-color: rgb(0, 46, 0) !important;
 }

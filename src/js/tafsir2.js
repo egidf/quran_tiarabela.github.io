@@ -16,11 +16,13 @@ $(document).ready(function(){
         const pJtfRingkas = document.createElement('h6');
         pJtfRingkas.append(jTfringkas);
         pJtfRingkas.classList.add('judul-tafsir');
+        pJtfRingkas.classList.add('p-2');
 
         const jTflengkap = document.createTextNode('Tafsir Kemenag RI');
         const pJtfLengkap = document.createElement('h6');
         pJtfLengkap.append(jTflengkap);
         pJtfLengkap.classList.add('judul-tafsir');
+        pJtfLengkap.classList.add('p-2');
         
 
         const tAyat = document.createTextNode(textAyat +' '+ idAr);
